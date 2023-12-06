@@ -248,3 +248,226 @@ button {
   margin-left: -30px;
   position: absolute;
 }
+
+.plan {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.plan-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.plan-subtitle {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  color: #4f5665;
+  text-align: center;
+
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plan-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan-card {
+  padding: 40px 60px;
+  max-width: 450px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 0.2s ease-in;
+}
+
+.plan-card:hover {
+  transform: translateY(-20px);
+  -webkit-box-shadow: 0px 13px 34px 9px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0px 13px 34px 9px rgba(34, 60, 80, 0.6);
+  box-shadow: 0px 13px 34px 9px rgba(34, 60, 80, 0.6);
+}
+
+.plan-card:active {
+  border-color: #f53838;
+  -webkit-box-shadow: 0px 13px 34px 9px rgba(245, 56, 56, 0.6);
+  -moz-box-shadow: 0px 13px 34px 9px rgba(245, 56, 56, 0.6);
+  box-shadow: 0px 13px 34px 9px rgba(245, 56, 56, 0.6);
+}
+
+.plan-card-img {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.plan-card-title h2 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-top: 15px 0;
+  text-align: center;
+}
+
+.plan-card-list {
+  padding-bottom: 30px;
+}
+
+.plan-card-element {
+  color: #4f5665;
+  font-weight: 400;
+  line-height: 2.1;
+  font-size: 18px;
+
+  padding-top: 15px;
+  margin-left: 45px;
+
+  position: relative;
+}
+
+.plan-card-element::before {
+  content: "";
+  background-image: url(../img/main/section-plan/checked.svg);
+  background-repeat: no-repeat;
+  background-size: 25px;
+
+  width: 200px;
+  height: 20px;
+
+  position: absolute;
+  bottom: 10px;
+  left: -35px;
+}
+
+.card-price {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+
+  padding-bottom: 15px;
+}
+
+.card-price-select {
+  color: #f53838;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+
+  border: 2px solid #f53838;
+  border-radius: 25px;
+
+  padding: 10px 50px;
+
+  transition: all 150ms ease-in;
+
+  cursor: pointer;
+}
+
+.card-price-select:hover {
+  color: white;
+  background-color: #f53838;
+  -webkit-box-shadow: 0px 36px 37px -12px rgba(194, 62, 72, 0.46);
+  -moz-box-shadow: 0px 36px 37px -12px rgba(194, 62, 72, 0.46);
+  box-shadow: 0px 36px 37px -12px rgba(194, 62, 72, 0.46);
+}
+
+.price-span {
+  color: #4f5665;
+  font-weight: 400;
+}
+
+.plan-card-bottom {
+  margin-top: auto;
+}
+
+.premium-plan {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(227, 233, 148, 1) 61%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: premium-animation infinite 1.5s;
+}
+
+@keyframes premium-animation {
+  0% {
+    opacity: 0.5;
+  }
+
+  10% {
+    opacity: 0.6;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  40% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.1;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+.network {
+  margin-bottom: 150px;
+}
+
+.network-title-txt {
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.network-title {
+  margin-bottom: 40px;
+}
+
+.network-subtitle {
+  font-size: 24px;
+  margin-bottom: 150px;
+}
+
+.network-earth {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.network-earth img {
+  width: 800px;
+}
