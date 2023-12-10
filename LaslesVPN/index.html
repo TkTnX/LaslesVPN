@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LaslesVPN</title>
-    <link rel="icon" href="./img/header/logo.svg" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./img/header/logo.svg" />
   </head>
   <body>
     <header class="header">
@@ -23,6 +29,12 @@
             </div>
             <div class="logo-txt">Lasles<span class="logo-span">VPN</span></div>
           </div>
+          <button class="menu_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <nav class="menu">
             <ul class="menu-list">
               <li class="menu-element">
@@ -263,47 +275,111 @@
                 great pleasure when using this crazy feature.
               </div>
             </div>
-            <div class="feedback-cards">
-              <div class="feedback-card">
-                <div class="feedback__card-top">
-                  <div class="feedback__card-top-logo">
-                    <img
-                      src="img/main/section-feedback/user.svg"
-                      alt="logo"
-                      class="card-logo"
-                    />
-                  </div>
-                  <div class="feedback__card-name">
-                    <h4>Viezh Robert</h4>
-                    <p>Warsaw, Poland</p>
-                  </div>
-                  <div class="feedback__card-star">
-                    <img src="img/main/section-feedback/star.svg" alt="Star" />
+          </div>
+          <div class="slider-box">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="feedback-card">
+                    <div class="feedback__card-top">
+                      <div class="feedback__card-top-logo">
+                        <img
+                          src="img/main/section-feedback/user.svg"
+                          alt="logo"
+                          class="card-logo"
+                        />
+                      </div>
+                      <div class="feedback__card-name">
+                        <h4>Viezh Robert</h4>
+                        <p>Warsaw, Poland</p>
+                      </div>
+                      <div class="feedback__card-star">
+                        <img
+                          src="img/main/section-feedback/star.svg"
+                          alt="Star"
+                        />
+                      </div>
+                    </div>
+                    <div class="feedback__card-txt">
+                      “Wow... I am very happy to use this VPN, it turned out to
+                      be more than my expectations and so far there have been no
+                      problems. LaslesVPN always the best”.
+                    </div>
                   </div>
                 </div>
-                <div class="feedback__card-txt">
-                  “Wow... I am very happy to use this VPN, it turned out to be
-                  more than my expectations and so far there have been no
-                  problems. LaslesVPN always the best”.
+                <div class="swiper-slide">
+                  <div class="feedback-card">
+                    <div class="feedback__card-top">
+                      <div class="feedback__card-top-logo">
+                        <img
+                          src="img/main/section-feedback/user.svg"
+                          alt="logo"
+                          class="card-logo"
+                        />
+                      </div>
+                      <div class="feedback__card-name">
+                        <h4>Yessica Christy</h4>
+                        <p>Shanxi, China</p>
+                      </div>
+                      <div class="feedback__card-star">
+                        <img
+                          src="img/main/section-feedback/star.svg"
+                          alt="Star"
+                        />
+                      </div>
+                    </div>
+                    <div class="feedback__card-txt">
+                      “I like it because I like to travel far and still can
+                      connect with high speed.”.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="feedback-card">
+                    <div class="feedback__card-top">
+                      <div class="feedback__card-top-logo">
+                        <img
+                          src="img/main/section-feedback/user.svg"
+                          alt="logo"
+                          class="card-logo"
+                        />
+                      </div>
+                      <div class="feedback__card-name">
+                        <h4>Kim Young Jou</h4>
+                        <p>Seoul, South Korea</p>
+                      </div>
+                      <div class="feedback__card-star">
+                        <img
+                          src="img/main/section-feedback/star.svg"
+                          alt="Star"
+                        />
+                      </div>
+                    </div>
+                    <div class="feedback__card-txt">
+                      “This is very unusual for my business that currently
+                      requires a virtual private network that has high
+                      security.”.
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="feedback-under">
-              <div class="feedback-scroller">
-                <span class="feedback-scroller-el"></span>
-                <span class="feedback-scroller-el"></span>
-                <span class="feedback-scroller-el"></span>
-              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
               <div class="feedback-buttons">
                 <img
                   src="img/main/section-feedback/leftArrow.svg"
                   alt="leftArrow"
-                  class="leftArrow"
+                  class="leftArrow swiper-button-prev"
                 />
                 <img
                   src="img/main/section-feedback/leftArrow.svg"
                   alt="rightArrow"
-                  class="rightArrow"
+                  class="rightArrow swiper-button-next"
                 />
               </div>
             </div>
@@ -409,5 +485,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

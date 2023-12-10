@@ -1,0 +1,496 @@
+@media (max-width: 1000px) {
+  .title-section-left-title {
+    font-size: 36px;
+    max-width: 400px;
+  }
+
+  .title-section-left-description {
+    font-size: 14px;
+    max-width: 400px;
+  }
+
+  .about {
+    margin-bottom: 100px;
+  }
+
+  .title-section-right img {
+    width: 360px;
+  }
+  .about-el-txt-title {
+    font-size: 18px;
+  }
+  .about-el-txt-description {
+    font-size: 16px;
+  }
+  .can-use-left img {
+    max-width: 400px;
+  }
+  .can-use-title {
+    font-size: 36px;
+    max-width: 400px;
+  }
+  .can-use-description {
+    font-size: 16px;
+    max-width: 400px;
+  }
+
+  .plan {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  .plan-title {
+    font-size: 18px;
+  }
+  .plan-subtitle {
+    font-size: 16px;
+  }
+
+  .plan-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .plan-card-title h2 {
+    font-size: 20px;
+  }
+  .plan-card-element {
+    font-size: 14px;
+  }
+  .card-price {
+    font-size: 20px;
+  }
+  .card-price-select {
+    font-size: 20px;
+  }
+  .network-title {
+    font-size: 18px;
+  }
+  .network-subtitle {
+    font-size: 15px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .network-earth img {
+    width: 600px;
+    margin-left: 12%;
+    margin-right: 0;
+  }
+
+  .swiper-slide {
+    padding: 50px;
+  }
+
+  .feedback-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .feedback-subtitle {
+    font-size: 16px;
+  }
+
+  .card-logo {
+    width: 45px;
+  }
+
+  .feedback-card {
+    padding: 20px;
+  }
+
+  .feedback-buttons {
+    display: none;
+  }
+
+  .feedback__card-name {
+    margin-left: -15px;
+    font-size: 16px;
+  }
+
+  .feedback__card-txt {
+    font-size: 18px;
+  }
+
+  .feedback__card-star {
+    font-size: 20px;
+  }
+
+  .feedback__card-star img {
+    margin-top: -2px;
+    width: 30px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+  }
+
+  .subscibe {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .sub-title {
+    font-size: 30px;
+    max-width: 400px;
+  }
+  .subscribe-right {
+    font-size: 18px;
+  }
+  .footer {
+    padding: 150px 0;
+  }
+  .lasles-subtitle {
+    font-size: 16px;
+  }
+  .social-el {
+    width: 80px;
+  }
+  .product__list-el {
+    font-size: 16px;
+  }
+  .product h3,
+  .engage h3,
+  .earn-money h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 906px) {
+  .logo-img img {
+    width: 15px;
+  }
+  .logo-txt {
+    font-size: 18px;
+  }
+
+  .menu-list {
+    gap: 0 25px;
+  }
+
+  .menu-link {
+    font-size: 14px;
+  }
+
+  .reg-btns {
+    gap: 0 20px;
+  }
+
+  .sign-in-btn,
+  .sign-up-btn {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 80px 0;
+  }
+
+  .footer__inner-about {
+    margin-left: 15px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px 0;
+  }
+
+  .earn-money {
+    grid-column: 1 / span 2;
+    justify-self: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-section {
+    margin-bottom: 80px;
+  }
+
+  .title-section-left-title {
+    font-size: 26px;
+  }
+  .title-section-left-description {
+    font-size: 12px;
+  }
+  .title-section-right img {
+    width: 300px;
+  }
+  .title-section-btn {
+    font-size: 12px;
+  }
+
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about-el-txt-title {
+    font-size: 16px;
+  }
+  .about-el-txt-description {
+    font-size: 14px;
+  }
+  .sub-title {
+    font-size: 24px;
+    max-width: 300px;
+  }
+  .sub-subtitle {
+    font-size: 16px;
+  }
+  .subscribe-right {
+    font-size: 14px;
+  }
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .earn-money {
+    margin-left: 350px;
+  }
+}
+
+@media (max-width: 680px) {
+  .menu_btn {
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu_btn button {
+    background-color: green;
+    height: 2px;
+    width: 100%;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .title-section-left-title {
+    font-size: 20px;
+  }
+  .title-section-left-description {
+    font-size: 10px;
+  }
+  .title-section_inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .title-section-left-title {
+    font-size: 36px;
+  }
+  .title-section-left-description {
+    font-size: 15px;
+  }
+  .title-section-btn {
+    font-size: 20px;
+  }
+  .title-section-right img {
+    margin-top: 50px;
+    width: 450px;
+  }
+  .can-use_inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .plan-subtitle {
+    max-width: 340px;
+  }
+  .network-earth {
+    max-width: 500px;
+  }
+  .network-earth img {
+    width: 400px;
+  }
+  .network-subtitle {
+    margin-bottom: 50px;
+  }
+  .feedback {
+    margin-top: 0px;
+  }
+  .network {
+    margin-bottom: 80px;
+  }
+  .feedback__card-name {
+    margin-left: 50px;
+  }
+  .footer__inner-about {
+    margin-left: 150px;
+    margin-right: auto;
+  }
+  .earn-money {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 564px) {
+  .can-use-element {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .can-use-element {
+    max-width: 220px;
+    text-align: left;
+  }
+  .title-section-right img {
+    width: 350px;
+  }
+
+  .network-earth img {
+    margin: 0;
+    width: 300px;
+  }
+  .network-earth {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-section-left-title {
+    font-size: 24px;
+  }
+  .title-section-left-description {
+    font-size: 10px;
+  }
+  .title-section-btn {
+    font-size: 16px;
+  }
+  .about_inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .can-use-element {
+    margin-left: 40px;
+  }
+  .can-use-left img {
+    max-width: 320px;
+  }
+  .network-title {
+    font-size: 16px;
+  }
+  .network-subtitle {
+    font-size: 13px;
+    max-width: 300px;
+  }
+  .feedback-title {
+    font-size: 16px;
+  }
+  .feedback-subtitle {
+    font-size: 13px;
+    max-width: 300px;
+  }
+  .card-logo {
+    width: 35px;
+  }
+  .feedback__card-name {
+    font-size: 13px;
+  }
+  .feedback__card-star img {
+    width: 20px;
+  }
+  .swiper-container {
+    height: 80%;
+  }
+  .feedback__card-star {
+    font-size: 15px;
+  }
+  .feedback__card-txt {
+    font-size: 15px;
+  }
+  .feedback {
+    margin-bottom: 50px;
+  }
+  .subscibe {
+    margin-top: 0;
+  }
+  .footer__inner-about {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo-txt {
+    font-size: 14px;
+  }
+  .sign-in-btn,
+  .sign-up-btn {
+    font-size: 12px;
+  }
+  .title-section-left-title {
+    font-size: 20px;
+  }
+  .title-section {
+    margin-top: 60px;
+  }
+  .title-section-left-description {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-section-right img {
+    width: 250px;
+  }
+  .about-el-txt-title {
+    font-size: 13px;
+  }
+  .about-el-txt-description {
+    font-size: 13px;
+  }
+  .about-el-icon img {
+    width: 15px;
+    height: 15px;
+  }
+  .can-use-title {
+    font-size: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .can-use-description {
+    font-size: 13px;
+  }
+  .can-use-element {
+    font-size: 16px;
+  }
+  .plan-title {
+    font-size: 14px;
+  }
+  .plan-subtitle {
+    font-size: 14px;
+  }
+  .network-title {
+    font-size: 13px;
+  }
+  .network-subtitle {
+    font-size: 12px;
+  }
+  .feedback__card-name {
+    margin-left: 0;
+  }
+  .card-logo {
+    display: none;
+  }
+  .subscribe__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sub-title {
+    font-size: 16px;
+  }
+  .sub-subtitle {
+    font-size: 13px;
+    padding-bottom: 15px;
+  }
+  .subscribe-left {
+    padding: 5px;
+  }
+  .subscribe-right {
+    font-size: 12px;
+  }
+  .footer {
+    text-align: center;
+  }
+}
